@@ -1,0 +1,66 @@
+{
+    "title": "macro // fnを押しながらq/wを押すと、youn9taka/youn9taka@gmail.comを送信する",
+    "rules": [
+        {
+            "description": "macro // [fn]+[q]=[youn9taka]",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "q",
+                        "modifiers": { "mandatory": [ "fn" ] }
+                    },
+                    "to": [
+                        {"key_code": "lang2"},
+                        {"key_code": "y"},
+                        {"key_code": "o"},
+                        {"key_code": "u"},
+                        {"key_code": "n"},
+                        {"key_code": "9"},
+                        {"key_code": "t"},
+                        {"key_code": "a"},
+                        {"key_code": "k"},
+                        {"key_code": "a"}
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "macro // [fn]+[w]=[youn9taka@gmail.com]",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "w",
+                        "modifiers": { "mandatory": [ "fn" ] }
+                    },
+                    "to": [
+                        {"key_code": "lang2"},
+                        {"key_code": "y"},
+                        {"key_code": "o"},
+                        {"key_code": "u"},
+                        {"key_code": "n"},
+                        {"key_code": "9"},
+                        {"key_code": "t"},
+                        {"key_code": "a"},
+                        {"key_code": "k"},
+                        {"key_code": "a"},
+                        {
+                            "key_code": "2",
+                            "modifiers": [ "shift" ]
+                        },
+                        {"key_code": "g"},
+                        {"key_code": "m"},
+                        {"key_code": "a"},
+                        {"key_code": "i"},
+                        {"key_code": "l"},
+                        {"key_code": "period"},
+                        {"key_code": "c"},
+                        {"key_code": "o"},
+                        {"key_code": "m"}
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
