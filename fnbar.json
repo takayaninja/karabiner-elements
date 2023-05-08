@@ -1,5 +1,5 @@
 {
-	"title": "スペースバーを長押ししたとき、fnを送信する",
+	"title": "fnbar // スペースバーを長押ししたとき、fnを送信する",
 	"rules": [
 		{
 			"description": "fnbar // [spacebar.hold]=[fn]",

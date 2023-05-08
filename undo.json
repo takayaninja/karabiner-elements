@@ -1,5 +1,5 @@
 {
-	"title": "left_controlを単押ししたとき、元に戻すショートカットを送信する",
+	"title": "undo // left_controlを単押ししたとき、元に戻すショートカットを送信する",
 	"rules": [
 		{
 			"description": "undo // [single.left_control]=[left_command]+[z]",

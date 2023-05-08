@@ -1,8 +1,8 @@
 {
-	"title": "fnを押しながらjkl;を押すと、矢印キーを送信する",
+	"title": "arrow_right // fnを押しながらjkl;を押すと、矢印キーを送信する",
 	"rules": [
 		{
-			"description": "arrow_right //  [fn]+[j]=[left_arrow]",
+			"description": "arrow_right // [fn]+[j]=[left_arrow]",
 			"manipulators": [
 				{
 					"type": "basic",
@@ -19,7 +19,7 @@
 			]
 		},
 		{
-			"description": "arrow_right //  [fn]+[k]=[down_arrow]",
+			"description": "arrow_right // [fn]+[k]=[down_arrow]",
 			"manipulators": [
 				{
 					"type": "basic",
